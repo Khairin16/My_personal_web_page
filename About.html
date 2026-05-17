@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>About Me</title>
+
+  <style>
+
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background: #dff5fc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .about-section{
+      width: 900px;
+      background: rgb(171, 246, 251);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .about-image img{
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #2563eb;
+    }
+
+    .about-text h1{
+      color: #1e3a8a;
+      margin-bottom: 15px;
+      font-size: 40px;
+    }
+
+    .about-text h3{
+      color: #2563eb;
+      margin-bottom: 15px;
+    }
+
+    .about-text p{
+      color: #444;
+      line-height: 1.8;
+      margin-bottom: 20px;
+    }
+
+    .btn{
+      display: inline-block;
+      text-decoration: none;
+      background: #2563eb;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 10px;
+      transition: 0.3s;
+    }
+
+    .btn:hover{
+      background: #1d4ed8;
+    }
+
+    @media(max-width: 768px){
+
+      .about-section{
+        flex-direction: column;
+        text-align: center;
+      }
+
+    }
+
+  </style>
+</head>
+<body>
+
+  <section class="about-section">
+
+    <div class="about-image">
+      <img src="Do Re mon.jpg" alt="Profile">
+    </div>
+
+    <div class="about-text">
+      <h1>About Me</h1>
+
+      <h3>Web Designer & Student</h3>
+
+      <p>
+        Hello! I am a creative web designer and student.
+        I love creating beautiful and responsive websites
+        using HTML, CSS and JavaScript. I enjoy learning
+        new technologies and improving my coding skills.
+      </p>
+
+      <a href="https://www.facebook.com/"class="btn">Hire Me</a>
+
+    </div>
+
+  </section>
+
+</body>
+</html>
